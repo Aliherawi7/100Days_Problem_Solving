@@ -1,4 +1,4 @@
-### 6. String to Integer (atoi)
+### 5. String to Integer (atoi)
 
 description:
 Implement String to Integer (atoi) which converts a string to an integer.
