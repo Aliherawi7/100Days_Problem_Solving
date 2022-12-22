@@ -1,2 +1,4 @@
-100 Days Problem Solving
+##100 Days Problem Solving
+
+###First part:
 Top google interview questions 
