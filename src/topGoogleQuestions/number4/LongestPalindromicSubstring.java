@@ -2,7 +2,7 @@ package topGoogleQuestions.number4;
 
 public class LongestPalindromicSubstring {
     public static void main(String[] args) {
-        String test = "ghuiubabababd987utu";
+        String test = "babad";
         System.out.println(test);
         System.out.println(getLongestPalindromicSubstring(test));
     }
