@@ -1,7 +1,7 @@
 package topGoogleQuestions.number8;
 
 public class LinkList {
-    private Node first;
+    Node first;
     public LinkList(){
         first = null;
     }
@@ -38,17 +38,5 @@ public class LinkList {
 
 
 
-
-
 }
-class Node{
-    int value;
-    Node next;
-    public Node(int value){
-        this.value = value;
-    }
 
-    public void displayNode(){
-        System.out.print(value + " ");
-    }
-}
