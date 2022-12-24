@@ -20,18 +20,24 @@ public class RemoveElement {
     }
 
     public static int removeElement(int[] numbers, int value){
+        // this variable is for controlling the new length
         int newLength = 0;
+        // this variable control the index of the target element
         int head;
         for (int i =0; i < numbers.length; i++){
             head = i;
+            // check if the current element is equal to the target number
             if(numbers[i] == value){
+                // check if next adjacent numbers are the same. then get the last one's index
                 while(numbers[head] == value){
                     head++;
                     if(head >= numbers.length)
                         break;
                 }
+                // the loop will continue iteration from the next number of the target number
                 i = head;
             }
+            // if i is a valid index then replace the numbers[newLength] with numbers[i]
             if(i < numbers.length)
                 numbers[newLength] = numbers[i];
 
