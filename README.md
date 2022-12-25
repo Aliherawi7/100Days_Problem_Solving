@@ -1,7 +1,7 @@
-##100 Days Problem Solving
+## 100 Days Problem Solving
 
-###First part:
-#####Top google interview questions
+### First part:
+##### Top google interview questions
 
 1. [Two Sum](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number1)
 2. [Longest Substring Without Repeating Characters](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number2)
