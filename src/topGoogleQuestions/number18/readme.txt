@@ -4,7 +4,9 @@
 
 
 descriptions:
-Given a collection of distinct integers, return all possible permutations.
+Given a collection of distinct integers,
+return all possible permutations.
+
 Example:
 Input: [1,2,3]
 Output:
