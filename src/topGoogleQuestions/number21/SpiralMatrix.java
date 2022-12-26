@@ -28,7 +28,7 @@ public class SpiralMatrix {
         int top = 0,  bottom = numbers.length - 1;
         int left = 0, right = numbers[0].length - 1;
 
-        // control the moving on 2d array direction
+        // control the moving direction on 2d array
         int direction = 1;
 
         //new spiral order array
