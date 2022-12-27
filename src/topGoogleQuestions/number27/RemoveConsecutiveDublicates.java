@@ -1,8 +1,8 @@
-package topGoogleQuestions.number26.number27;
+package topGoogleQuestions.number27;
 
 public class RemoveConsecutiveDublicates {
     public static void main(String[] args) {
-        String input = "aaabbbsdddheeloooo";
+        String input = "hhhhhhheellllllloooo";
         String output = removeConsecutiveDublicates(input);
         System.out.println(output);
     }
