@@ -2,7 +2,7 @@ package topGoogleQuestions.number28;
 
 public class Sqrt {
     public static void main(String[] args) {
-        int input = 5;
+        int input = 61;
         double output = sqrt(input);
         System.out.println(output);
     }
@@ -17,7 +17,6 @@ public class Sqrt {
         while(low <= high){
             double mid = low + (high - low) / 2.0;
             double sqrt = mid * mid;
-            System.out.println("sqrt : "+sqrt + " mid : "+ mid);
             if(sqrt == number){
                 return mid;
             }else if(sqrt > number){
@@ -26,7 +25,7 @@ public class Sqrt {
                 low = mid + 0.01;
             }
         }
-        System.out.println(System.currentTimeMillis()-s);
+        System.out.println("total time(millis): "+(System.currentTimeMillis()-s));
         return high;
     }
 }
