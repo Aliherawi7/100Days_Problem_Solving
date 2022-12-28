@@ -30,3 +30,4 @@
 25. [Plus One](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number25)
 26. [Add Binary (incomplete)](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number26)
 27. [Remove Consecutive Duplicates](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number27)
+28. [Square root (sqrt)](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number28)
