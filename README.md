@@ -31,4 +31,5 @@
 26. [Add Binary (incomplete)](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number26)
 27. [Remove Consecutive Duplicates](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number27)
 28. [Square root (sqrt)](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number28)
-28. [Search A 2D Matrix](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number29)
+29. [Search A 2D Matrix](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number29)
+30. [Subsets of array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number30)
