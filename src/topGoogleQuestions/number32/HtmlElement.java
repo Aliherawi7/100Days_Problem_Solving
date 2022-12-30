@@ -10,7 +10,7 @@ public class HtmlElement {
     }
 
     public  static  String htmlElement(String str){
-        ArrayList<String> allEmlement = new ArrayList<>();
+        ArrayList<String> allTags = new ArrayList<>();
 
 
         /*in this loop we find all open and close tag in the str string. and add them all in a arraylist*/
@@ -23,30 +23,30 @@ public class HtmlElement {
             // if there is '>' character in i index then create a substring from index to i+1 and add it to the arraylist
             if(str.charAt(i) == '>' && index >= 0){
                 String tag = str.substring(index, i+1);
-                allEmlement.add(tag);
+                allTags.add(tag);
             }
         }
-        System.out.println(allEmlement.toString());
+        System.out.println(allTags.toString());
         /* in this loop we replace all opened and closed tag with empty string. */
-        for(int i =0;  i < allEmlement.size(); i++){
-            String openTag = allEmlement.get(i).replace("<", "</");
+        for(int i =0;  i < allTags.size(); i++){
+            String openTag = allTags.get(i).replace("<", "</");
 
-            for(int j = i+1; j < allEmlement.size(); j++){
-                if(allEmlement.get(j).equals(openTag)){
-                    allEmlement.set(j, "");
-                    allEmlement.set(i, "");
+            for(int j = i+1; j < allTags.size(); j++){
+                if(allTags.get(j).equals(openTag)){
+                    allTags.set(j, "");
+                    allTags.set(i, "");
                     break;
                 }
             }
         }
         /* if there is any string in array with length higher than
          zero then it is the tag which has not close tag and must be returned */
-        for(String tag : allEmlement){
+        for(String tag : allTags){
             if(tag.length() > 0){
                 return tag.substring(1, tag.length()-1);
             }
         }
-        System.out.println(allEmlement.toString());
+        System.out.println(allTags.toString());
 
         /* if the code reach here is means that there
         is no open tag without close tag so the program must return true*/
