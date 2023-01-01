@@ -25,6 +25,7 @@ public class RemoveDuplicatesFromSortedArrayII {
                 fast++;
             }
 
+            // bring the new unrepeated number at the end of new subarray
             if (fast < numbers.length && numbers[slow] != numbers[fast]) {
                 System.out.println(Arrays.toString(numbers));
                 numbers[++slow] = numbers[fast];
