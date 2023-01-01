@@ -36,3 +36,4 @@
 31. [Word Search in Matrix](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number31)
 32. [Check HTML Element format](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number32)
 33. [Reverse Number](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number33)
+34. [Remove Duplicates from Sorted Array II](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number34)
