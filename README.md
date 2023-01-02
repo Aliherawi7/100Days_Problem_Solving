@@ -38,4 +38,6 @@
 33. [Reverse Number](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number33)
 34. [Remove Duplicates from Sorted Array II](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number34)
 35. [Search in Rotated Sorted Array II](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number35)
+36. [Merge Sorted Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number36)
+37. [Pascal's Triangle](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number37)
 
