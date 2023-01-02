@@ -15,12 +15,11 @@ public class PascalsTriangle {
     public static int[][] getPascalsTriangle(int numRows){
         int[][] pascalsTriangle = new int[numRows][];
 
-        int rowLength = 1;
         for(int i =0; i < numRows; i++){
-            int[] row = new int[rowLength];
-            for (int j =0; j < rowLength; j++){
+            int[] row = new int[i+1];
+            for (int j =0; j < row.length; j++){
                 // the first column and last column should always be 1
-                if(j == 0 || j == rowLength-1){
+                if(j == 0 || j == row.length-1){
                     row[j] = 1;
                     continue;
                 }
@@ -30,7 +29,6 @@ public class PascalsTriangle {
             // add the new row to the pascals's triangle
             pascalsTriangle[i] = row;
             // the next row length
-            rowLength = i + 2;
         }
 
 
