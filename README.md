@@ -40,4 +40,6 @@
 35. [Search in Rotated Sorted Array II](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number35)
 36. [Merge Sorted Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number36)
 37. [Pascal's Triangle](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number37)
+38. [Pascal's Triangle ||](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number38)
+39. [Best Time to Buy and Sell Stock](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number38)
 
