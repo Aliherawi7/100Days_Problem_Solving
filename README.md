@@ -43,3 +43,9 @@
 38. [Pascal's Triangle ||](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number38)
 39. [Best Time to Buy and Sell Stock](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number38)
 
+
+## Second part:
+### Master Data Structure
+1. [Reverse Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number1)
+2. [Find Smallest Element In Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number2)
+3. [Find Contiguous Subarray](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number3)
