@@ -1,6 +1,6 @@
 
 
-### 7. You are given an integer array height of length n.
+### 7. Maximum Water Container
 
 descriptions:
 Given n non-negative integers a1, a2, ..., an ,
