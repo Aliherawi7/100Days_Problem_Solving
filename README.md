@@ -45,7 +45,20 @@
 
 
 ## Second part:
-### Master Data Structure
-1. [Reverse Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number1)
-2. [Find Smallest Element In Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number2)
-3. [Find Contiguous Subarray](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number3)
+### Master Data Structure and Algorithm
+   #### Arrays:
+   1. [Reverse Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number1)
+   2. [Find Smallest Element In Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number2)
+   3. [Find Contiguous Subarray](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number3)
+   4. [Sort Short Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number3)
+   5. [Find Missing and Doubled Numbers In Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number3)
+   6. [Sum of Two Element in array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number3)
+   7. [Maximum Water Container](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/arrays/number3)
+   
+   #### Strings:
+   1. [Reverse String](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/strings/number1)
+   2. [Palindromic Subsequences](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/strings/number2)
+   3. [All Anagrams](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/masterDSA/strings/number3)
+   
+   
+   
