@@ -13,4 +13,5 @@ for example, string "bcda" is a rotation of "abcd" but
 "bdca" is not a rotation of string "abcd"
 
 Example 1:
-input
+input = "abcd", target = "bcda"
+output = true
