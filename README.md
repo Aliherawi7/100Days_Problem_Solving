@@ -41,7 +41,9 @@
 36. [Merge Sorted Array](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number36)
 37. [Pascal's Triangle](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number37)
 38. [Pascal's Triangle ||](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number38)
-39. [Best Time to Buy and Sell Stock](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number38)
+39. [Best Time to Buy and Sell Stock](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number39)
+40. [Single Number](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number40)
+41. [Missing Ranges](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number41)
 
 
 ## Second part:
