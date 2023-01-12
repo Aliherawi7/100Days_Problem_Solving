@@ -50,6 +50,8 @@
 45. [Delete Node In A Linked list](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number45)
 46. [Majority Element](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number46)
 47. [House Robber](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number47)
+48. [Valid Anagram](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number48)
+49. [Strobogrammatic Number](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/topGoogleQuestions/number49)
 
 
 ## Second part:
