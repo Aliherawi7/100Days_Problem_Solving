@@ -1,17 +1,42 @@
 package topGoogleQuestions.number18;
 
-public class Permutations {
+import java.util.Arrays;
 
+public class Permutations {
+    public static void main(String[] args) {
+        int[] input = {1,2,3};
+        int[][] perm = getPermutations(input);
+        for(int[] n : perm){
+            System.out.println(Arrays.toString(n));
+        }
+    }
 
     public static int[][] getPermutations(int[] numbers){
-        int[][] perm = new int[numbers.length * 2][numbers.length];
-
-        for(int i = 0; i < perm.length; i++){
-            for(int j = 0; j < numbers.length; j++){
-
+        int[][] permutations = new int[factorial(numbers.length)][numbers.length];
+        int tail = 0;
+        int head = 1;
+        for(int i = 0; i < permutations.length; i++){
+            int holder = numbers[tail];
+            numbers[tail] = numbers[head];
+            numbers[head] = holder;
+            head++;
+            tail++;
+            if(head == numbers.length){
+                head = 0;
             }
-        }
+            if(tail == numbers.length){
+                tail = 0;
+            }
 
-        return perm;
+            permutations[i] = Arrays.copyOf(numbers, numbers.length);
+        }
+        return permutations;
+    }
+
+    public static int factorial(int n){
+        int factorial = 1;
+        for(int i = 1; i <= n; i++)
+            factorial *= i;
+        return factorial;
     }
 }

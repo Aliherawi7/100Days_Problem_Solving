@@ -1,8 +1,11 @@
 package topGoogleQuestions.number24;
 
+import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class PermutationSequence {
     public static void main(String[] args) {
-        String num = permutationSequence(4, 9);
+        String num = permutationSequence(4, 5);
         System.out.println(num);
     }
 
@@ -13,6 +16,10 @@ public class PermutationSequence {
         for(int i = 1; i <= n; i++)
             numbers.append(i);
         permute(numbers.toString(), 0, numbers.length()-1, sb);
+        /* this is just for test to print all permutations: */
+        AtomicInteger incrementer = new AtomicInteger(0);
+        Arrays.stream(sb.toString().split(" ")).forEach(a -> System.out.println(incrementer.getAndIncrement()+": "+a));
+
         return sb.toString().split(" ")[k];
     }
     public static void permute(String str, int l , int r, StringBuilder sb){
