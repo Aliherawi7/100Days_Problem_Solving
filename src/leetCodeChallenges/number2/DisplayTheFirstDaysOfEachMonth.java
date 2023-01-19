@@ -3,13 +3,21 @@ package leetCodeChallenges.number2;
 
 public class DisplayTheFirstDaysOfEachMonth {
     public static void main(String[] args) {
-        printAllFirstDayOfMonth(2023, 0);
+        printAllFirstDayOfMonth(2013, 2);
     }
+
     public static void printAllFirstDayOfMonth(int year, int firstDay){
         int prevMonthDays = 0;
         String monthName = "jan";
         String weekDay = "";
+
+
         for(int month = 1; month <= 12; month++){
+
+            /*
+            * in this switch statement we peek up the previous month total days
+            * and the current month name.
+            * */
             switch (month){
                 case 2 :
                     prevMonthDays = 31;
@@ -57,13 +65,22 @@ public class DisplayTheFirstDaysOfEachMonth {
                     break;
             }
 
+            /*
+            * in this loop we find the the current month first day
+            * the way is to increment the firstDay var for each day
+            * of the previous month. if the firstDay var reach to the
+            * end of week then assign it to zero which mean the first
+            * day of week
+            * */
             for(int i = 1; i <= prevMonthDays; i++){
                 firstDay++;
                 if(firstDay > 6){
                     firstDay = 0;
                 }
             }
-
+            /*
+            * select the day of week by firstDay var
+            * */
             switch (firstDay) {
                 case 6:
                     weekDay = "Saturday";
