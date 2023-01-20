@@ -74,3 +74,5 @@
 ### LeetCode Challenges
 1. [SubSets](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/number1)
 2. [Display the first days of each month](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/number2)
+3. [Sqrt(x)](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/number3)
+2. [Display Calender](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/number4)
