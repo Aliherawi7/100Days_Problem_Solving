@@ -24,13 +24,25 @@ public class HtmlElement {
             if(str.charAt(i) == '>' && index >= 0){
                 String tag = str.substring(index, i+1);
                 allTags.add(tag);
+
+                //then put -1 back to the index variable
+                index = -1;
             }
         }
         System.out.println(allTags.toString());
+
         /* in this loop we replace all opened and closed tag with empty string. */
         for(int i =0;  i < allTags.size(); i++){
+             /*
+                pick an open tag and exchange it into close tag
+                for example: pick <div> and then convert to --> </div>
+             */
             String openTag = allTags.get(i).replace("<", "</");
 
+            /*
+            * start searching for tags which are equal to the openTag
+            * if there is such tag then replace the opened and close tag with empty string
+            * */
             for(int j = i+1; j < allTags.size(); j++){
                 if(allTags.get(j).equals(openTag)){
                     allTags.set(j, "");

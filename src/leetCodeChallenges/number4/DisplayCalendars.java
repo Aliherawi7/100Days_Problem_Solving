@@ -3,6 +3,7 @@ package leetCodeChallenges.number4;
 public class DisplayCalendars {
     public static void main(String[] args) {
         displayCalender(2023, 0);
+        
     }
 
     public static void displayCalender(int year, int firstDay){
