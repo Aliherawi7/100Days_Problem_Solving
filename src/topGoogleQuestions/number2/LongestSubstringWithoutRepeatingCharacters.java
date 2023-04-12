@@ -2,27 +2,24 @@ package topGoogleQuestions.number2;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
-        String input =  "getLongestSubstringWithoutRepeatingChar";
-        int result = getLongestSubstringWithoutRepeatingChar(input);
-        System.out.println(result);
+        String input =  " ";
+        System.out.println(getLongestSubString(input));
     }
 
-    public static int getLongestSubstringWithoutRepeatingChar(String text){
-        text = text.toLowerCase();
-        StringBuilder subString = new StringBuilder();
-        String subHolder = "";
-
-        for(int i= 0; i < text.length(); i++ ){
-
-            if(subString.toString().contains(text.charAt(i)+"")){
-                if(subHolder.length() < subString.length()){
-                    subHolder = subString.toString();
-                }
-                subString = new StringBuilder();
+    public static int getLongestSubString(String s){
+        String mainHolder = "";
+        for(int i =0; i < s.length(); i++){
+            StringBuilder holder = new StringBuilder();
+            int index = i;
+            while(! holder.toString().contains(s.charAt(index)+"") ){
+                holder.append(s.charAt(index++));
+                if(index == s.length()) break;
             }
-            subString.append(text.charAt(i));
+            if(holder.length() >= mainHolder.length()){
+                mainHolder = holder.toString();
+            }
+
         }
-        System.out.println(subHolder);
-        return subHolder.length();
+        return mainHolder.length();
     }
 }
