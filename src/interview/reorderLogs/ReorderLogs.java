@@ -1,12 +1,11 @@
-package interview.logs;
+package interview.reorderLogs;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Logs {
+public class ReorderLogs {
     public static void main(String[] args) {
         String[] logs = { "dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"};
         logsReorder(logs);

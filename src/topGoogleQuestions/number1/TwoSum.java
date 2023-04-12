@@ -17,11 +17,14 @@ public class TwoSum {
         int[] indexArray = {-1, -1};
 
         for(int i =0; i < array.length-1; i++){
-            int sum = array[i] + array[i+1];
-            if(sum == target){
-                indexArray[0] = i;
-                indexArray[1] = i+1;
+            for(int j = i+1; j <array.length; j++){
+                if((array[i]+array[j]) == target){
+                    indexArray[0] = j;
+                    indexArray[1] = j;
+                    return indexArray;
+                }
             }
+
         }
 
         return indexArray;
