@@ -2,40 +2,30 @@ package topGoogleQuestions.number4;
 
 public class LongestPalindromicSubstring {
     public static void main(String[] args) {
-        String test = "babad";
-        System.out.println(test);
+        String test = "c";
+        // System.out.println(Arrays.toString(test.split("b")));
+
         System.out.println(getLongestPalindromicSubstring(test));
     }
 
 
-    public static String getLongestPalindromicSubstring(String str){
-        String subString = "";
+    public static String getLongestPalindromicSubstring(String str) {
+        if (str.length() <= 0) return str;
+        String plindtrome = "";
 
-        for (int i=0; i<str.length(); i++){
-            StringBuilder holder = new StringBuilder();
-            // start adding the chars to the holder from i
-            int counter = i;
-            while(counter <= str.lastIndexOf(str.charAt(i))){
-                holder.append(str.charAt(counter));
-                counter++;
-            }
-
-            // check if the holder value is prime
-            boolean isPrime = true;
-            int start =0, end = holder.length()-1;
-            while(start < end){
-                if(holder.charAt(start) != holder.charAt(end)){
-                    isPrime = false;
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            String[] pl = str.split(ch + "");
+            for (int j = 1; j < pl.length - 1; j++) {
+                pl[j] = ch + pl[j] + ch;
+                if (new StringBuilder(pl[j])
+                        .reverse()
+                        .toString()
+                        .equals(pl[j]) && pl[j].length() >= plindtrome.length()) {
+                    plindtrome = pl[j];
                 }
-                start++;
-                end--;
-            }
-
-            // if the holder value is prime and its size is bigger than the subString
-            if(isPrime && holder.length() > subString.length()){
-                subString = holder.toString();
             }
         }
-        return subString;
+        return plindtrome;
     }
 }

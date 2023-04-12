@@ -43,9 +43,6 @@ public class MedianOfTwoSortedArrays {
                 mainArray[i] = holder;
             }
         }
-        System.out.println(Arrays.toString(mainArray));
-
-
         if(mainArray.length % 2 == 0){
             return (mainArray[mainArray.length/2]+mainArray[mainArray.length/2-1]) / 2.0;
         }
