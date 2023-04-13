@@ -3,13 +3,11 @@ package topGoogleQuestions.number5;
 public class StringToInteger {
     public static void main(String[] args) {
 
-     //   int i = stringToInteger("-879-0oiu9809 98 0942");
-     //   System.out.println(i);
-       // System.out.println(parsInt("-91283472332"));
+        int i = parsInt("-879-0oiu9809 98 0942");
+        System.out.println(i);
+        System.out.println(parsInt("-91283472332"));
         System.out.println(parsInt("9223372036854775808"));
         System.out.println(parsInt("   -42"));
-
-      //  System.out.println(Integer.MAX_VALUE-2147483646);
 
     }
 
