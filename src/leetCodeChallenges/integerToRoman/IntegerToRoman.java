@@ -1,4 +1,4 @@
-package leetCodeChallenges.number6;
+package leetCodeChallenges.integerToRoman;
 
 import java.util.*;
 

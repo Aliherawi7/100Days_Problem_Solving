@@ -1,4 +1,4 @@
-package leetCodeChallenges.number5;
+package leetCodeChallenges.generateParentheses;
 
 import java.util.ArrayList;
 import java.util.HashSet;

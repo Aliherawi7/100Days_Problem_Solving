@@ -1,10 +1,10 @@
-package leetCodeChallenges.number1;
+package leetCodeChallenges.subSetsII;
 
 import java.util.*;
 
 public class SubSetsII {
     public static void main(String[] args) {
-        int inputs[] = {1,2,3};
+        int[] inputs = {1,2,3};
         subsets(inputs).forEach(System.out::println);
     }
 

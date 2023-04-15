@@ -1,4 +1,4 @@
-package leetCodeChallenges.number2;
+package leetCodeChallenges.displayTheFirstDaysOfEachMonth;
 
 
 public class DisplayTheFirstDaysOfEachMonth {

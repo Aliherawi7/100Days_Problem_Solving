@@ -6,7 +6,7 @@ public class LongestPalindromicSubstring {
         // System.out.println(Arrays.toString(test.split("b")));
 
         System.out.println(getLongestPalindromicSubstring(test));
-        int max = (int) (Math.pow(2, 31)-1);
+        int max = (int) (Math.pow(2, 31) - 1);
         int min = (int) (Math.pow(-2, 31));
 
     }
@@ -25,7 +25,10 @@ public class LongestPalindromicSubstring {
                 if (str.charAt(j) == ch) {
                     String sub = str.substring(i, j + 1);
                     System.out.println(sub);
-                    if (new StringBuilder(sub).reverse().toString().equals(sub) && sub.length() >= plindtrome.length()) {
+                    if (new StringBuilder(sub)
+                            .reverse()
+                            .toString()
+                            .equals(sub) && sub.length() >= plindtrome.length()) {
                         plindtrome = sub;
                     }
                 }

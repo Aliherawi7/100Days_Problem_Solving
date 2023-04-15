@@ -72,7 +72,10 @@
    
 ## Third Part:
 ### LeetCode Challenges
-1. [SubSets](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/number1)
-2. [Display the first days of each month](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/number2)
-3. [Sqrt(x)](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/number3)
-2. [Display Calender](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/number4)
+1. [SubSets](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/subSetsII)
+2. [Display the first days of each month](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/displayTheFirstDaysOfEachMonth)
+3. [Sqrt(x)](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/sqrt)
+4. [Display Calender](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/displayCalendars)
+5. [Integer To Roman](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/integerToRoman)
+6. [Generate Parentheses](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/generateParentheses)
+7. [Add Two Numbers](http://github.com/Aliherawi7/100Days_Problem_Solving/blob/main/src/leetCodeChallenges/addTwoNumbers)

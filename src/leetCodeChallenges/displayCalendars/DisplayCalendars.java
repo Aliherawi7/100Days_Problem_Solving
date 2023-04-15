@@ -1,4 +1,4 @@
-package leetCodeChallenges.number4;
+package leetCodeChallenges.displayCalendars;
 
 public class DisplayCalendars {
     public static void main(String[] args) {
